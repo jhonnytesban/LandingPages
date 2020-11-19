@@ -1,0 +1,32 @@
+@import '../variables';
+
+.container-logo {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 15px 10px 0 40px;
+}
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+.header {
+    display: flex;
+    padding: 10px 0 0 70px;
+}
+.container-text {
+    margin-top: 30px;
+}
+.title {
+    font-family: $font;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3f6c92;
+}
+.text {
+    font-family: $font;
+    font-size: 12px;
+    line-height: 15px;
+    color: #659aba;
+}
