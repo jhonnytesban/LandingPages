@@ -1,9 +1,9 @@
 @import '../variables';
 
 .container-logo {
-    max-width: 150px;
-    max-height: 150px;
-    margin: 15px 10px 0 40px;
+    max-width: 250px;
+    max-height: 250px;
+    margin-top: 20px;
 }
 .logo {
     max-width: 100%;
@@ -11,22 +11,16 @@
 }
 .header {
     display: flex;
-    padding: 10px 0 0 70px;
+    justify-content: space-around;
 }
-.container-text {
-    margin-top: 30px;
-}
+
 .title {
+    margin-top: 60px;
     font-family: $font;
-    font-size: 28px;
+    font-size: 40px;
     line-height: 30px;
     font-weight: 600;
     text-transform: uppercase;
     color: #3f6c92;
-}
-.text {
-    font-family: $font;
-    font-size: 12px;
-    line-height: 15px;
-    color: #659aba;
+    line-height: 50px;
 }
