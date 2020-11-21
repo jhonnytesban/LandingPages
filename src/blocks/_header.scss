@@ -4,6 +4,7 @@
     max-width: 250px;
     max-height: 250px;
     margin-top: 20px;
+    // z-index: 100;
 }
 .logo {
     max-width: 100%;
@@ -22,5 +23,13 @@
     font-weight: 600;
     text-transform: uppercase;
     color: #3f6c92;
-    line-height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.text {
+    // text-align: center;
+    font-family: $font;
+    font-size: 20px;
+    line-height: 15px;
+    color: #659aba;
 }
