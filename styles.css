@@ -102,6 +102,33 @@
   font-size: 2em;
   color: #3f6c92;
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5px;
+  padding: 0 40px;
+}
+
+.content-section {
+  background-color: red;
+}
+
+.section__subtitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #659aba;
+}
+
+.section__text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.section__img {
+  width: 100px;
 }
 
 * {
