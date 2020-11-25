@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    background-color: $colorFooter;
+}
+.container-footer{
+    max-width: 200px;
+    max-height: 150px;
+}
+.footer__img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.footer__text{
+    font-family: $font;
+    font-weight: 600;
+    color: $textColor;
+    text-align: center;
+    text-transform: uppercase;
+}
