@@ -72,7 +72,7 @@
     width: 100%;
     object-position: 0 -50px;  
     @include tablet{
-        object-position: 0 -80px;
+        object-position: 0 -60px;
     }
     @include mobile{
         object-position: 0 -40px;
@@ -97,6 +97,9 @@
     overflow: hidden;
     @include laptop{
         height: 100px;
+    }
+    @include tablet{
+        height: 150px;
     }
     @include mobile{
         height: 100px;
